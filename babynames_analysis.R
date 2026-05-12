@@ -91,7 +91,7 @@ plot_long <- raw_data %>%
   summarize(years_at_peak = n(), start_year = min(year), .groups = "drop") %>%
   ggplot(aes(x = start_year, y = years_at_peak)) +
   geom_point(alpha = 0.1, color = "darkgreen") +
-  geom_smooth(method = "loess", color = "red", se = FALSE)
+  geom_smooth(method = "loess", color = "red", se = FALSE) + 
   labs(title = "Cultural Velocity", 
        subtitle = "Shrinking peak-popularity lifespans over time",
        x = "Year Name First Became Popular", y = "Years at Peak") +
