@@ -1,5 +1,5 @@
 # Baby-Names-Analysis  
-Tidy Tuesday 2022-03-22 Baby Names Dataset Analysis**
+Tidy Tuesday 2022-03-22 Baby Names Dataset Analysis__
  
 This project investigates the evolution of naming conventions. Using over a century of data from the Social Security Administration, we test the theory that American society has transitioned from a "Collective Conformity" model (where most individuals shared a small pool of standard names) to a "Uniqueness" model characterized by phonetic diversity and social distinctiveness.  
 
